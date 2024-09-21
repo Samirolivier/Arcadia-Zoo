@@ -86,10 +86,10 @@ Bienvenue sur le projet de gestion des habitats et des animaux du Zoo Arcadia. C
 
 5. Chaque fois que vous ouvrez la modale d'un animal, le nombre de vues est mis à jour dans la base de données.
 
-## Exemple de Requête SQL pour les Vues
-
 ## licence
 MIT
+
+## Exemple de Requête SQL pour les Vues
 
 Voici quelques exemples de la requête SQL utilisée:
 
