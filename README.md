@@ -31,13 +31,13 @@ Bienvenue sur le projet de gestion des habitats et des animaux du Zoo Arcadia. C
 1. Clonez ce dépôt sur votre machine locale :
 
     ```bash
-    git clone https://github.com/username/zoo-arcadia.git
+    git clone https://github.com/Samirolivier/Arcadia-Zoo.git
     ```
 
 2. Naviguez dans le dossier du projet :
 
     ```bash
-    cd zoo-arcadia
+    cd Arcadia-Zoo
     ```
 
 3. Importez la base de données `zooarcadia.sql` fournie dans le dossier `config/`. Vous pouvez le faire via phpMyAdmin.
@@ -75,7 +75,7 @@ Bienvenue sur le projet de gestion des habitats et des animaux du Zoo Arcadia. C
 
 2. Depuis la page d'accueil, vous pouvez naviguer vers les sections **Habitats**, **Services**, **Contact**, etc.
 
-3. Sur la page des habitats, vous pouvez voir la liste des animaux présents dans chaque habitat. Cliquez sur un animal pour voir les détails dans une modale interactive.
+3. Sur la page des habitats, vous pouvez voir la liste des habitats. Cliquez sur un habitat pour voir les animaux présents. cliquez sur un animal pout voir les détails de cet animal dans une modale interactive.
 
 4. La modale vous montrera :
    - L'image de l'animal
