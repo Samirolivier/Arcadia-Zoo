@@ -1,0 +1,1096 @@
+:root {
+  --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+}
+
+.main-container {
+  overflow: hidden;
+}
+
+.main-container,
+.main-container * {
+  box-sizing: border-box;
+}
+
+input,
+select,
+textarea,
+button {
+  outline: 0;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 8px;
+  position: relative;
+  width: 1402px;
+  height: auto;
+  margin: 0 auto;
+  background: #32ade6;
+  overflow: hidden;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 32px;
+  position: relative;
+  width: 1289.333px;
+  height: 120px;
+  padding: 1px 0 1px 0;
+}
+.logo-arcadia-zoo {
+  flex-shrink: 0;
+  position: relative;
+  width: 200px;
+  height: 120px;
+  z-index: 1;
+}
+.logo-arcadia-zoo-1 {
+  position: absolute;
+  width: 208px;
+  height: 128px;
+  top: -5px;
+  left: 0;
+  background-size: 100% 100%;
+  z-index: 2;
+}
+.menu-accueil {
+  flex-shrink: 0;
+  position: relative;
+  width: 186px;
+  height: 76px;
+  cursor: pointer;
+  font-size: 0px;
+  background: transparent;
+  border: none;
+  z-index: 3;
+}
+.accueil {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 139px;
+  height: 32.609px;
+  margin: 21px 0 0 24px;
+  color: #ffffff;
+  font-family: "Arial";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 5px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 5;
+}
+.menu-accueil-2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #c26510;
+  z-index: 4;
+  border-radius: 12px;
+}
+.menu-services {
+  flex-shrink: 0;
+  position: relative;
+  width: 185.833px;
+  height: 76.957px;
+  cursor: pointer;
+  font-size: 0px;
+  background: transparent;
+  border: none;
+  z-index: 6;
+}
+.services {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 139px;
+  height: 32.609px;
+  margin: 21px 0 0 24px;
+  color: #ffffff;
+  font-family: "Arial";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 5px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 8;
+}
+.menu-services-3 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #c26510;
+  z-index: 7;
+  border-radius: 12px;
+}
+.menu-habitats {
+  flex-shrink: 0;
+  position: relative;
+  width: 185.833px;
+  height: 76.957px;
+  cursor: pointer;
+  font-size: 0px;
+  background: transparent;
+  border: none;
+  z-index: 9;
+}
+.habitats-4 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 139px;
+  height: 32.609px;
+  margin: 21px 0 0 24px;
+  color: #ffffff;
+  font-family: "Arial";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 5px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 11;
+}
+.menu-habitats-5 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #c26510;
+  z-index: 10;
+  border-radius: 12px;
+}
+.menu-contact {
+  flex-shrink: 0;
+  position: relative;
+  width: 185.833px;
+  height: 76.957px;
+  cursor: pointer;
+  font-size: 0px;
+  background: transparent;
+  border: none;
+  z-index: 12;
+}
+.contact {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 139px;
+  height: 32.609px;
+  margin: 21px 0 0 24px;
+  color: #ffffff;
+  font-family: "Arial";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 5px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 14;
+}
+.menu-contact-6 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #c26510;
+  z-index: 13;
+  border-radius: 12px;
+}
+.menu-connexion {
+  flex-shrink: 0;
+  position: relative;
+  width: 185.833px;
+  height: 76.957px;
+  cursor: pointer;
+  font-size: 0px;
+  background: transparent;
+  border: none;
+  z-index: 15;
+}
+.connexion {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 139px;
+  height: 32.609px;
+  margin: 21px 0 0 24px;
+  color: #ffffff;
+  font-family: "Arial";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 5px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 17;
+}
+.menu-connexion-7 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #c26510;
+  z-index: 16;
+  border-radius: 12px;
+}
+.slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  position: relative;
+  width: 1402px;
+  height: 682px;
+  background: #ffffff;
+  z-index: 18;
+  overflow: hidden;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+.habitats-8 {
+  flex-shrink: 0;
+  position: relative;
+  width: 1402px;
+  height: 681px;
+  background: url(./assets/images/cea509bed3543ef209a58f0b4366ea6e2ca8b356.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 19;
+}
+.button {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 10px;
+  position: relative;
+  width: 342px;
+  padding: 0 34px 0 34px;
+  cursor: pointer;
+  background: #c26510;
+  border: none;
+  z-index: 20;
+  border-radius: 75px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+.habitats-9 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  width: 274px;
+  height: 59px;
+  color: #ffffff;
+  font-family: Finger Paint, var(--default-font-family);
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 58.96px;
+  text-align: center;
+  text-decoration: underline;
+  white-space: nowrap;
+  z-index: 21;
+}
+.habitats-a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 123px;
+  position: relative;
+  width: 1402px;
+  height: 1484px;
+  padding: 1px 56px 1px 56px;
+  background: #ffffff;
+  z-index: 22;
+  overflow: hidden;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+.habitats-b {
+  flex-shrink: 0;
+  position: relative;
+  width: 1253px;
+  height: 1372px;
+  z-index: 23;
+}
+.flex-row-e {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  width: 1251px;
+  height: 676px;
+  margin: 0 0 0 0;
+  z-index: 39;
+}
+.forets-tropicales {
+  flex-shrink: 0;
+  position: relative;
+  width: 607px;
+  height: 676px;
+  z-index: 39;
+}
+.flex-row-d {
+  position: relative;
+  width: 607px;
+  height: 546px;
+  margin: 0 0 0 0;
+  z-index: 43;
+}
+.ellipse {
+  position: absolute;
+  width: 572px;
+  height: 545px;
+  top: 0;
+  left: 0;
+  background: url(./assets/images/808dbb2f-b4c7-4b41-9104-f2bc1703206f.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 40;
+}
+.habitats-forets-tropicales {
+  position: absolute;
+  width: 572px;
+  height: 99.82%;
+  top: 0.18%;
+  left: 35px;
+  background: url(./assets/images/558cb7a3-5d7c-40c5-98da-028ba65696c6.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 43;
+}
+.forets-tropicales-c {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 361px;
+  height: 36px;
+  margin: 10px 0 0 130px;
+  color: #000000;
+  font-family: Finger Paint, var(--default-font-family);
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 42;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.nombres-animaux {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 414px;
+  height: 76px;
+  margin: 8px 0 0 115.5px;
+  color: #fa0101;
+  font-family: Federo, var(--default-font-family);
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 37.703px;
+  text-align: center;
+  z-index: 41;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.rivieres-humides {
+  flex-shrink: 0;
+  position: relative;
+  width: 603px;
+  height: 676px;
+  z-index: 34;
+}
+.flex-row-e-d {
+  position: relative;
+  width: 603px;
+  height: 546px;
+  margin: 0 0 0 0;
+  z-index: 38;
+}
+.ellipse-e {
+  position: absolute;
+  width: 572px;
+  height: 545px;
+  top: 0;
+  left: 31px;
+  background: url(./assets/images/18f7acfd-f3fd-4cfc-ae10-e2abb45bce1b.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 37;
+}
+.habitats-rivieres-humides {
+  position: absolute;
+  width: 572px;
+  height: 99.82%;
+  top: 0.18%;
+  right: 31px;
+  background: url(./assets/images/74e24ad9-a0fe-48e8-a9e5-2d664e859a6f.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 38;
+}
+.rivieres-humides-f {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 361px;
+  height: 36px;
+  margin: 10px 0 0 131px;
+  color: #000000;
+  font-family: Finger Paint, var(--default-font-family);
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 36;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.nombres-animaux-10 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 414px;
+  height: 76px;
+  margin: 8px 0 0 116.5px;
+  color: #fa0101;
+  font-family: Federo, var(--default-font-family);
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 37.703px;
+  text-align: center;
+  z-index: 35;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.flex-row-c {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  width: 1251px;
+  height: 675px;
+  margin: 21px 0 0 2px;
+  z-index: 29;
+}
+.deserts-et-dunes {
+  flex-shrink: 0;
+  position: relative;
+  width: 605px;
+  height: 675px;
+  z-index: 29;
+}
+.flex-row-f {
+  position: relative;
+  width: 605px;
+  height: 545px;
+  margin: 0 0 0 0;
+  z-index: 33;
+}
+.ellipse-11 {
+  position: absolute;
+  width: 572px;
+  height: 545px;
+  top: 0;
+  left: 0;
+  background: url(./assets/images/bda80f6d-f1b4-4f78-b305-0182b885484f.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 30;
+}
+.habitats-deserts-et-dunes {
+  position: absolute;
+  width: 572px;
+  height: 100%;
+  top: 0;
+  left: 33px;
+  background: url(./assets/images/0e9e9d98-f8f8-4e29-93be-590009d0ec5d.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 33;
+}
+.deserts-dunes {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 361px;
+  height: 36px;
+  margin: 10px 0 0 128px;
+  color: #000000;
+  font-family: Finger Paint, var(--default-font-family);
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 32;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.nombres-animaux-12 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 414px;
+  height: 80px;
+  margin: 4px 0 0 113.5px;
+  color: #fa0101;
+  font-family: Federo, var(--default-font-family);
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 37.703px;
+  text-align: center;
+  z-index: 31;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.savane-africaine {
+  flex-shrink: 0;
+  position: relative;
+  width: 605px;
+  height: 671px;
+  z-index: 24;
+}
+.flex-row-fb {
+  position: relative;
+  width: 605px;
+  height: 545px;
+  margin: 0 0 0 0;
+  z-index: 28;
+}
+.habitats-savane-africaine {
+  position: absolute;
+  width: 572px;
+  height: 100%;
+  top: 0;
+  right: 33px;
+  background: url(./assets/images/14bfa1ec-e3ea-49e6-b9e3-236d12a7de57.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 28;
+}
+.ellipse-13 {
+  position: absolute;
+  width: 572px;
+  height: 545px;
+  top: 0;
+  left: 33px;
+  background: url(./assets/images/9a0b9b21-fd44-403b-92cb-0a2ee065828f.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 25;
+}
+.savane-africaine-14 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 361px;
+  height: 36px;
+  margin: 10px 0 0 131px;
+  color: #000000;
+  font-family: Finger Paint, var(--default-font-family);
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 27;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.nombres-animaux-15 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 362px;
+  height: 72px;
+  margin: 8px 0 0 142.5px;
+  color: #fa0101;
+  font-family: Federo, var(--default-font-family);
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 37.703px;
+  text-align: center;
+  z-index: 26;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 10px;
+  position: relative;
+  min-width: 0;
+  height: 125px;
+  z-index: 48;
+}
+.pied-de-page {
+  flex-shrink: 0;
+  position: relative;
+  width: 1402px;
+  height: 135px;
+  background: #32ade6;
+  border: 1px solid #ffffff;
+  z-index: 34;
+  overflow: hidden;
+}
+.flex-row {
+  position: relative;
+  width: 1247px;
+  height: 109px;
+  margin: 0 0 0 55px;
+  z-index: 75;
+}
+.logo-arcadia-zoo-blanc {
+  position: absolute;
+  width: 190px;
+  height: 105px;
+  top: -12px;
+  left: 50%;
+  transform: translate(-328.16%, 0);
+  z-index: 79;
+  overflow: hidden;
+}
+.logo-arcadia-zoo-blanc-16 {
+  position: relative;
+  width: 190px;
+  height: 93px;
+  margin: -7px 0 0 0;
+  background-size: cover;
+  z-index: 76;
+}
+.adresse {
+  position: absolute;
+  width: 350px;
+  height: 91px;
+  top: 6px;
+  left: 40%;
+  transform: translate(132.65%, 0);
+  z-index: 66;
+  overflow: hidden
+}
+.adresse-17 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 18px;
+  top: 8px;
+  left: 15px;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23px;
+  text-align: left;
+  text-transform: capitalize;
+  white-space: nowrap;
+  z-index: 63;
+}
+.nous-suivre {
+  position: absolute;
+  width: 199px;
+  height: 96px;
+  top: 13px;
+  left: 736px;
+  font-size: 0px;
+  z-index: 51;
+}
+.nous-suivre-18 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 179px;
+  height: 22px;
+  margin: 0 0 0 9px;
+  color: #ffffff;
+  font-family: Itim, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: center;
+  text-decoration: underline;
+  text-transform: uppercase;
+  white-space: nowrap;
+  z-index: 61;
+}
+.flex-row-add {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  width: 199px;
+  height: 76px;
+  margin: -2px 0 0 0;
+  z-index: 58;
+}
+.facebook {
+  flex-shrink: 0;
+  position: relative;
+  width: 59px;
+  height: 58px;
+  z-index: 52;
+}
+.facebook-19 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 53;
+  overflow: hidden;
+}
+.icon {
+  position: relative;
+  width: 31.041px;
+  height: 52.334px;
+  margin: 2.834px 0 0 15.209px;
+  background: url(./assets/images/b7fc68e2-aeae-4f14-9c0a-acb0521a844a.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 54;
+}
+.twitter {
+  flex-shrink: 0;
+  position: relative;
+  width: 46px;
+  height: 58px;
+  z-index: 55;
+}
+.twitter-1a {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 56;
+  overflow: hidden;
+}
+.icon-1b {
+  position: relative;
+  width: 46px;
+  height: 47.363px;
+  margin: 5.227px 0 0 0;
+  background: url(./assets/images/4f8949ae-ca9f-4473-8781-ddc0b7d06f98.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 57;
+}
+.youtube {
+  flex-shrink: 0;
+  position: relative;
+  width: 56px;
+  height: 76px;
+  z-index: 58;
+}
+.youtube-1c {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 59;
+  overflow: hidden;
+}
+.icon-1d {
+  position: relative;
+  width: 55.336px;
+  height: 52.957px;
+  margin: 10.666px 0 0 0.33px;
+  background: url(./assets/images/559198c2-7780-4ff3-9a26-3b889c6074f7.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 60;
+}
+.menu-bas {
+  position: absolute;
+  width: 538px;
+  height: 52px;
+  top: 18.5px;
+  left: 50%;
+  transform: translate(-77.04%, 0);
+  z-index: 64;
+  overflow: hidden;
+}
+.connexion-bas {
+  position: absolute;
+  width: 145.585px;
+  height: 23px;
+  top: 9.5px;
+  left: 398.152px;
+  z-index: 65;
+}
+.connexion-bas-1e {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: -3px;
+  left: 0;
+  color: #000000;
+  font-family: Arial;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 23px;
+  text-align: center;
+  text-decoration: underline;
+  white-space: nowrap;
+  z-index: 66;
+}
+.contacts-bas {
+  position: absolute;
+  width: 82.152px;
+  height: 18px;
+  top: 9.5px;
+  left: 317px;
+  z-index: 67;
+}
+.contacts-bas-1f {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: -1px;
+  left: 0;
+  color: #000000;
+  font-family: Arial;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: center;
+  text-decoration: underline;
+  white-space: nowrap;
+  z-index: 68;
+}
+.habitats-bas {
+  position: absolute;
+  width: 102.949px;
+  height: 15px;
+  top: 9.5px;
+  left: 199px;
+  z-index: 69;
+}
+.habitats-bas-20 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 2px;
+  left: 0;
+  color: #000000;
+  font-family: Arial;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 15px;
+  text-align: center;
+  text-decoration: underline;
+  white-space: nowrap;
+  z-index: 70;
+}
+.services-bas {
+  position: absolute;
+  width: 105.029px;
+  height: 18px;
+  top: 9.5px;
+  left: 87px;
+  z-index: 71;
+}
+.services-bas-21 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  color: #000000;
+  font-family: Arial;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: center;
+  text-decoration: underline;
+  white-space: nowrap;
+  z-index: 72;
+}
+.accueil-bas {
+  position: absolute;
+  width: 82.152px;
+  height: 18px;
+  top: 9.5px;
+  left: -2px;
+  z-index: 73;
+}
+.accueil-bas-22 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  color: #000000;
+  font-family: Arial;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: center;
+  text-decoration: underline;
+  white-space: nowrap;
+  z-index: 74;
+}
+.copyright {
+  position: relative;
+  width: 1440px;
+  height: 20px;
+  margin: -10px 0 0 0;
+  z-index: 46;
+}
+.copyrignt {
+  position: absolute;
+  width: 1440px;
+  height: 20px;
+  top: 9px;
+  left: 0;
+  background: #c26510;
+  z-index: 47;
+  overflow: hidden;
+}
+.devsoft {
+  position: absolute;
+  width: 81px;
+  height: 20px;
+  top: 0;
+  left: 868px;
+  z-index: 49;
+}
+.devsoft-23 {
+  position: absolute;
+  width: 81px;
+  height: 100%;
+  top: 0;
+  left: 0;
+  font-family: JejuMyeongjo, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  text-overflow: initial;
+  white-space: nowrap;
+  z-index: 50;
+}
+.nbsp {
+  position: relative;
+  color: #1e1e1e;
+  font-family: JejuMyeongjo, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  text-transform: capitalize;
+}
+.devsoft-24 {
+  position: relative;
+  color: #ffffff;
+  font-family: JejuMyeongjo, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  text-transform: capitalize;
+}
+.arcadia-zoo-tous-droits-reserves {
+  position: absolute;
+  width: 524px;
+  height: 20px;
+  top: 1px;
+  left: 354px;
+  font-family: JejuMyeongjo, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  text-overflow: initial;
+  white-space: nowrap;
+  z-index: 48;
+}
+.copy {
+  position: relative;
+  color: #ffffff;
+  font-family: JejuMyeongjo, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  text-transform: capitalize;
+}
+.arcadia-zoo-tous-droits-reserves-25 {
+  position: relative;
+  color: #1e1e1e;
+  font-family: JejuMyeongjo, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  text-transform: capitalize;
+}
+.copy-26 {
+  position: relative;
+  color: #ffffff;
+  font-family: JejuMyeongjo, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  text-transform: capitalize;
+}
+.developpe-par {
+  position: relative;
+  color: #1e1e1e;
+  font-family: JejuMyeongjo, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  text-transform: capitalize;
+}
