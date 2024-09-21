@@ -11,7 +11,7 @@ Bienvenue sur le projet de gestion des habitats et des animaux du Zoo Arcadia. C
 ## Technologies Utilisées
 
 - **Front-end** :
-  - HTML5, CSS3
+  - HTML, CSS
   - JavaScript pour la gestion des modales et des requêtes AJAX
   - Effets de survol pour une meilleure interactivité
 - **Back-end** :
