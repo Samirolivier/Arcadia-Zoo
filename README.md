@@ -88,6 +88,9 @@ Bienvenue sur le projet de gestion des habitats et des animaux du Zoo Arcadia. C
 
 ## Exemple de Requête SQL pour les Vues
 
+## licence
+MIT
+
 Voici quelques exemples de la requête SQL utilisée:
 
 - Pour mettre à jour le nombre de vues d'un animal à chaque fois que ses détails sont consultés :
@@ -108,6 +111,3 @@ $stmt->execute([$name, $email, $message]);
 $stmt = $pdo->prepare("SELECT * FROM users WHERE email = ?");
 $stmt->execute([$email]);
 $user = $stmt->fetch();
-
-## licence
-MIT
