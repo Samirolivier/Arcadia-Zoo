@@ -104,7 +104,7 @@ $stmt_update->execute([$id]);
 $stmt = $pdo->prepare("INSERT INTO contact_messages (name, email, message) VALUES (?, ?, ?)");
 $stmt->execute([$name, $email, $message]);
 
-- pour éviter les injections SQL
+- Pour éviter les injections SQL
 
 $stmt = $pdo->prepare("SELECT * FROM users WHERE email = ?");
 $stmt->execute([$email]);
