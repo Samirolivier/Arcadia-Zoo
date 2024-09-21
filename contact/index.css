@@ -1,0 +1,742 @@
+.logo-arcadia-zoo-7 {
+  height: 120px;
+  width: 200px;
+  position: relative;
+  object-fit: cover;
+  cursor: pointer;
+}
+.menu-accueil1 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-xs);
+  background-color: var(--color-chocolate);
+}
+.accueil {
+  text-decoration: none;
+  flex: 1;
+  position: relative;
+  color: inherit;
+  font-family: "Arial";
+  z-index: 1;
+}
+.menu-accueil,
+.menu-accueil-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.menu-accueil {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 21px var(--padding-4xl) 25px 24px;
+  position: relative;
+  cursor: pointer;
+}
+.menu-accueil-wrapper {
+  width: 186px;
+  flex-direction: column;
+  padding: 22px 0 0;
+  box-sizing: border-box;
+}
+.menu-services1 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-xs);
+  background-color: var(--color-chocolate);
+}
+.services {
+  text-decoration: none;
+  flex: 1;
+  position: relative;
+  color: inherit;
+  font-family: "Arial";
+  z-index: 1;
+}
+.menu-services,
+.menu-services-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.menu-services {
+  align-self: stretch;
+  flex-direction: row;
+  padding: var(--padding-lg-3) var(--padding-4xl) var(--padding-9xl-7);
+  position: relative;
+  cursor: pointer;
+}
+.menu-services-wrapper {
+  width: 185.8px;
+  flex-direction: column;
+  padding: var(--padding-2xl-5) 0 0;
+  box-sizing: border-box;
+}
+.menu-habitats1 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-xs);
+  background-color: var(--color-chocolate);
+}
+.habitas {
+  text-decoration: none;
+  flex: 1;
+  position: relative;
+  color: inherit;
+  font-family: "Arial";
+  z-index: 1;
+}
+.menu-habitats,
+.menu-habitats-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.menu-habitats {
+  align-self: stretch;
+  flex-direction: row;
+  padding: var(--padding-lg-3) var(--padding-4xl) var(--padding-9xl-7);
+  position: relative;
+  cursor: pointer;
+}
+.menu-habitats-wrapper {
+  width: 185.8px;
+  flex-direction: column;
+  padding: var(--padding-2xl-5) 0 0;
+  box-sizing: border-box;
+}
+.menu-contact1 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-xs);
+  background-color: var(--color-chocolate);
+}
+.contact1 {
+  text-decoration: none;
+  flex: 1;
+  position: relative;
+  color: inherit;
+  font-family: "Arial";
+  z-index: 1;
+}
+.menu-contact,
+.menu-contact-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.menu-contact {
+  align-self: stretch;
+  flex-direction: row;
+  padding: var(--padding-lg-3) var(--padding-4xl) var(--padding-9xl-7);
+  position: relative;
+  cursor: pointer;
+}
+.menu-contact-wrapper {
+  width: 185.8px;
+  flex-direction: column;
+  padding: var(--padding-2xl-5) 0 0;
+  box-sizing: border-box;
+}
+.menu-connexion1 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-xs);
+  background-color: var(--color-chocolate);
+}
+.connexion {
+  text-decoration: none;
+  flex: 1;
+  position: relative;
+  color: inherit;
+  font-family: "Arial";
+  z-index: 1;
+}
+.menu-connexion {
+  align-self: stretch;
+  flex-direction: row;
+  padding: var(--padding-lg-3) var(--padding-4xl) var(--padding-9xl-7);
+  position: relative;
+  cursor: pointer;
+}
+.header,
+.header-wrapper,
+.menu-connexion,
+.menu-connexion-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.menu-connexion-wrapper {
+  width: 185.8px;
+  flex-direction: column;
+  padding: var(--padding-2xl-5) 0 0;
+  box-sizing: border-box;
+}
+.header,
+.header-wrapper {
+  flex-direction: row;
+  max-width: 100%;
+}
+.header {
+  gap: 33px;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  font-family: var(--font-irish-grover);
+}
+.header-wrapper {
+  padding: 0 54px 0 353px;
+  box-sizing: border-box;
+}
+.couple-perroquet-ara-1-icon {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 800px;
+  object-fit: cover;
+  opacity: 0.3;
+  
+}
+.arriere-plan {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Hauteur pleine page */
+  background-image: url(public/couple-perroquet-ara-1@2x.png); /* Image d'arrière-plan */
+  background-size: cover; /* L'image couvre toute la zone */
+  background-position: center; /* L'image est centrée */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    
+}
+.arriere-plan::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(68, 233, 225, 0.418); /* Calque semi-transparent */
+  z-index: 1; /* Pour être sous le formulaire mais au-dessus de l'image */
+}
+
+.form-overlay {
+  position: relative;
+  background-color: #ebebeb; /* Légère transparence pour mieux voir le fond */
+  padding: 20px;
+  border-radius: 10px; /* Pour des bords arrondis */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Ombre légère */
+  z-index: 2; /* Pour que le formulaire apparaisse au-dessus du calque */
+}
+
+
+
+.nom-et-prenoms1,
+.nous-contactez {
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+.nous-contactez {
+  margin: 0;
+  width: 685px;
+  font-size: inherit;
+  text-decoration: underline;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 60px;
+}
+.nom-et-prenoms1 {
+  margin-left: 14px;
+  width: 100%;
+  border: 0;
+  outline: 0;
+  font-family: var(--font-jaldi);
+  font-size: 25px;
+  background-color: transparent;
+  height: 68px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 0;
+}
+.nom-et-prenoms {
+  width: 685px;
+  border-radius: var(--br-61xl);
+  background-color: var(--color-gray-300);
+  border: 5px solid var(--color-black);
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+  max-width: 100%;
+}
+.email1 {
+  margin-left: 1px;
+  width: 100%;
+  border: 0;
+  outline: 0;
+  font-family: var(--font-jaldi);
+  font-size: 25px;
+  background-color: transparent;
+  height: 68px;
+  position: relative;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  display: inline-block;
+  padding: 0;
+}
+.email,
+.texte {
+  border: 5px solid var(--color-black);
+  background-color: var(--color-gray-300);
+  width: 685px;
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.email {
+  border-radius: var(--br-61xl);
+  padding: var(--padding-12xs) 0 0;
+}
+.texte {
+  margin-left: 1px;
+  width: 100%;
+  border: 0;
+  outline: 0;
+  font-family: var(--font-jaldi);
+  font-size: 25px;
+  background-color: transparent;
+  height: 300px;
+  position: relative;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  display: inline-block;
+  padding: 0;
+}
+.envoyer1 {
+  margin: 0;
+  width: 500px;
+  position: relative;
+  font-size: inherit;
+  line-height: 42px;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.envoyer {
+  width: 280px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-61xl);
+  background-color: var(--color-black);
+  border: 1px solid var(--color-white);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 12px 0 var(--padding-2xs);
+}
+.contact2,
+.envoyer-wrapper {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.envoyer-wrapper {
+  width: 685px;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  font-size: var(--font-size-21xl);
+  color: var(--color-white);
+  font-family: var(--font-jejumyeongjo);
+}
+.contact2 {
+  width: 917px;
+  margin: 0 !important;
+  position: absolute;
+  top: 100px;
+  left: 550px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-7xl) var(--padding-xl) 0;
+  gap: 23.5px;
+  z-index: 1;
+}
+.arcadia-zoo-tous {
+  white-space: pre-wrap;
+}
+.arcadia-zoo-tous,
+.dvelopp-par {
+  color: var(--color-gray-100);
+}
+.arcadia-zoo-tous-container {
+  align-self: stretch;
+  position: relative;
+  text-transform: capitalize;
+}
+.arcadia-zoo-tous-droits-rserv-wrapper {
+  height: 20px;
+  width: 524px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.devsoft2 {
+  color: var(--color-white);
+}
+.devsoft1 {
+  flex: 1;
+  position: relative;
+  text-transform: capitalize;
+}
+.copyrignt,
+.devsoft {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.devsoft {
+  width: 81px;
+  z-index: 1;
+  margin-left: -25px;
+  color: var(--color-gray-100);
+}
+.copyrignt {
+  position: absolute;
+  top: 100px;
+  left: 300px;
+  background-color: var(--color-chocolate);
+  width: 1650px;
+  overflow: hidden;
+  padding: 0 354px;
+  box-sizing: border-box;
+  font-family: JejuMyeongjo, var(--default-font-family);
+}
+.facebook-icon,
+.twitter-icon {
+  position: absolute;
+  top: 42px;
+  left: 1180px;
+  width: 59px;
+  height: 58px;
+}
+.twitter-icon {
+  left: 1265px;
+  width: 46px;
+}
+.nous-suivre,
+.youtube-icon {
+  position: absolute;
+  top: 33px;
+  left: 1330px;
+  width: 56px;
+  height: 76px;
+  z-index: 2;
+}
+.nous-suivre {
+  top: 13px;
+  left: 1190px;
+  text-decoration: underline;
+  text-transform: uppercase;
+  display: inline-block;
+  width: 179px;
+  height: 22px;
+  z-index: 3;
+}
+.adresse2 {
+  margin: 0;
+  white-space: pre-wrap;
+}
+.bretage-france {
+  margin: 0;
+}
+.adresse1 {
+  width: 400px;
+  position: relative;
+  text-transform: capitalize;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.adresse {
+  position: absolute;
+  top: 6px;
+  left: 1420px;
+  width: 400px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 0 var(--padding-2xs) 15px;
+  box-sizing: border-box;
+  text-align: left;
+  font-family: Arial;
+  font-size: 20px;
+}
+.accueil-bas1 {
+  height: 18px;
+  flex: 1;
+  position: relative;
+  text-decoration: underline;
+  display: inline-block;
+  font-family: Arial;
+  
+}
+.accueil-bas {
+  margin-left: -89px;
+  width: 82.2px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+}
+.services-bas1 {
+  height: 18px;
+  flex: 1;
+  position: relative;
+  text-decoration: underline;
+  display: inline-block;
+  font-family: Arial;
+}
+.services-bas {
+  width: 105px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+}
+.habitats-bas1 {
+  height: 15px;
+  flex: 1;
+  position: relative;
+  text-decoration: underline;
+  display: inline-block;
+  font-family: Arial;
+}
+.habitats-bas,
+.habitats-bas-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.habitats-bas {
+  align-self: stretch;
+  flex-direction: row;
+}
+.habitats-bas-wrapper {
+  width: 111.2px;
+  flex-direction: column;
+  padding: 0 var(--padding-5xs) 0 0;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.connexion-bas1 {
+  height: 23px;
+  flex: 1;
+  position: relative;
+  text-decoration: underline;
+  display: inline-block;
+  font-family: Arial;
+}
+.connexion-bas {
+  position: absolute;
+  top: 0;
+  left: 81.2px;
+  width: 145.6px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.contacts-bas1 {
+  height: 18px;
+  flex: 1;
+  position: relative;
+  text-decoration: underline;
+  display: inline-block;
+  min-width: 82.2px;
+  font-family: Arial;
+}
+.contacts-bas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 82.2px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 1;
+}
+.connexion-bas-parent {
+  height: 23px;
+  width: 226.8px;
+  position: relative;
+  flex-shrink: 0;
+}
+.menu-bas {
+  position: absolute;
+  top: 18.5px;
+  left: calc(50% - 437px);
+  width: 650px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  padding: 9.5px 87px 19.5px;
+  box-sizing: border-box;
+  gap: 6.8px;
+  max-width: 100%;
+  z-index: 1;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-indie-flower);
+}
+.logo-arcadia-zoo-blanc-1 {
+  position: absolute;
+  top: -7px;
+  left: 0;
+  width: 190px;
+  height: 93px;
+  object-fit: cover;
+}
+.logo-arcadia-zoo-blanc {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 646px);
+  width: 190px;
+  height: 105px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.contact,
+.pied-de-page {
+  background-color: var(--color-deepskyblue);
+  max-width: 100%;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  font-family: var(--font-itim);
+}
+.pied-de-page {
+  align-self: stretch;
+  height: 125px;
+  border: 1px solid var(--color-white);
+  box-sizing: border-box;
+  flex-shrink: 0;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+}
+.contact {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 9px;
+  line-height: normal;
+  letter-spacing: normal;
+  font-size: 20px;
+  color: var(--color-black);
+}
+@media screen and (max-width: 750px) {
+  .header-wrapper {
+    padding-left: var(--padding-7xl);
+    padding-right: 27px;
+    box-sizing: border-box;
+  }
+  .nous-contactez {
+    font-size: 60px;
+  }
+  .email1,
+  .envoyer1,
+  .nom-et-prenoms1 {
+    font-size: var(--font-size-13xl);
+  }
+  .pied-de-page {
+    height: auto;
+    min-height: 125;
+  }
+}
+@media screen and (max-width: 675px) {
+  .header {
+    gap: 17px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .nous-contactez {
+    font-size: 45px;
+  }
+  .email1,
+  .envoyer1,
+  .nom-et-prenoms1 {
+    font-size: var(--font-size-5xl);
+  }
+  .adresse1,
+  .arcadia-zoo-tous-container,
+  .devsoft1,
+  .nous-suivre {
+    font-size: var(--font-size-base);
+  }
+  .accueil-bas1,
+  .connexion-bas1,
+  .contacts-bas1,
+  .habitats-bas1,
+  .services-bas1 {
+    font-size: var(--font-size-lgi);
+  }
+}
