@@ -1,0 +1,1486 @@
+:root {
+  --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+}
+
+.main-container {
+  overflow: hidden;
+}
+
+.main-container,
+.main-container * {
+  box-sizing: border-box;
+}
+
+input,
+select,
+textarea,
+button {
+  outline: 0;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 12px;
+  position: relative;
+  width: 1402px;
+  margin: 0 auto;
+  background: #32ade6;
+  overflow: hidden;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 31px;
+  position: relative;
+  width: 1284.333px;
+}
+.logo-arcadia-zoo {
+  flex-shrink: 0;
+  position: relative;
+  width: 200px;
+  height: 120px;
+  z-index: 1;
+}
+.logo-arcadia-zoo-1 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: url(./assets/images/185ed71c-941c-4f42-b355-a1b4d9695d33.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 2;
+}
+.menu-accueil {
+  flex-shrink: 0;
+  position: relative;
+  width: 186px;
+  height: 76px;
+  cursor: pointer;
+  font-size: 0px;
+  background: transparent;
+  border: none;
+  z-index: 3;
+}
+.accueil {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 138.886px;
+  height: 32.609px;
+  margin: 21px 0 0 24px;
+  color: #ffffff;
+  font-family: Irish Grover, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29.016px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 5;
+}
+.menu-accueil-2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #c26510;
+  z-index: 4;
+  border-radius: 12px;
+}
+.menu-services {
+  flex-shrink: 0;
+  position: relative;
+  width: 185.833px;
+  height: 76.957px;
+  cursor: pointer;
+  font-size: 0px;
+  background: transparent;
+  border: none;
+  z-index: 6;
+}
+.services {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 138.886px;
+  height: 32.609px;
+  margin: 18.262px 0 0 23.475px;
+  color: #ffffff;
+  font-family: Irish Grover, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29.016px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 8;
+}
+.menu-services-3 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #c26510;
+  z-index: 7;
+  border-radius: 12px;
+}
+.menu-habitats {
+  flex-shrink: 0;
+  position: relative;
+  width: 185.833px;
+  height: 76.957px;
+  cursor: pointer;
+  font-size: 0px;
+  background: transparent;
+  border: none;
+  z-index: 9;
+}
+.habitats {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 138.886px;
+  height: 32.609px;
+  margin: 18.262px 0 0 23.475px;
+  color: #ffffff;
+  font-family: Irish Grover, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29.016px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 11;
+}
+.menu-habitats-4 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #c26510;
+  z-index: 10;
+  border-radius: 12px;
+}
+.menu-contact {
+  flex-shrink: 0;
+  position: relative;
+  width: 185.833px;
+  height: 76.957px;
+  cursor: pointer;
+  font-size: 0px;
+  background: transparent;
+  border: none;
+  z-index: 12;
+}
+.contact {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 138.886px;
+  height: 32.609px;
+  margin: 18.262px 0 0 23.475px;
+  color: #ffffff;
+  font-family: Irish Grover, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29.016px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 14;
+}
+.menu-contact-5 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #c26510;
+  z-index: 13;
+  border-radius: 12px;
+}
+.menu-connexion {
+  flex-shrink: 0;
+  position: relative;
+  width: 185.833px;
+  height: 76.957px;
+  cursor: pointer;
+  font-size: 0px;
+  background: transparent;
+  border: none;
+  z-index: 15;
+}
+.connexion {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 138.886px;
+  height: 32.609px;
+  margin: 18.262px 0 0 23.475px;
+  color: #ffffff;
+  font-family: Irish Grover, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29.016px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 17;
+}
+.menu-connexion-6 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #c26510;
+  z-index: 16;
+  border-radius: 12px;
+}
+.slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  position: relative;
+  width: 1402px;
+  height: 682px;
+  background: #ffffff;
+  z-index: 18;
+  overflow: hidden;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+.habitats-7 {
+  flex-shrink: 0;
+  position: relative;
+  width: 1402px;
+  height: 681px;
+  background: url(./assets/images/9192d478611d6dfe28e2979a3e9d37b938cdd428.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 19;
+}
+.restauration {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 10px;
+  position: relative;
+  width: 348px;
+  height: 59px;
+  padding: 0 34px 0 34px;
+  cursor: pointer;
+  background: #c26510;
+  border: none;
+  z-index: 20;
+  border-radius: 75px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+.restauration-8 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  width: 280px;
+  height: 59px;
+  color: #ffffff;
+  font-family: Finger Paint, var(--default-font-family);
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 58.96px;
+  text-align: center;
+  text-decoration: underline;
+  white-space: nowrap;
+  z-index: 21;
+}
+.services-restauration-9 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 10px;
+  position: relative;
+  width: 1402px;
+  height: 2231px;
+  padding: 25px 0 25px 0;
+  background: #fbf2da;
+  z-index: 22;
+  overflow: hidden;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+.restauration-a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 10px;
+  position: relative;
+  width: 1402px;
+  height: 2181px;
+  z-index: 23;
+}
+.restauration-b {
+  flex-shrink: 0;
+  position: relative;
+  width: 1402px;
+  height: 2181px;
+  z-index: 24;
+}
+.flex-column-fc {
+  position: absolute;
+  width: 1359.5px;
+  height: 2208px;
+  top: -2px;
+  left: 42.5px;
+  font-size: 0px;
+  z-index: 44;
+}
+.parc-restauration {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 1317px;
+  height: 88px;
+  margin: 0 0 0 0;
+  color: #000000;
+  font-family: Finger Paint, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 44.22px;
+  text-align: center;
+  z-index: 43;
+}
+.restaurants-thematiques {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: nowrap;
+  gap: 10px;
+  position: relative;
+  width: 624px;
+  margin: 25px 0 0 346.5px;
+  padding: 0 34px 0 34px;
+  cursor: pointer;
+  background: #000000;
+  border: none;
+  z-index: 41;
+  border-radius: 75px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+.restaurants-thematiques-c {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  width: 556px;
+  height: 59px;
+  color: #ffffff;
+  font-family: Finger Paint, var(--default-font-family);
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 58.96px;
+  text-align: center;
+  text-decoration: underline;
+  white-space: nowrap;
+  z-index: 42;
+}
+.restaurants-thematiques-d {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  width: 1283px;
+  height: 70px;
+  margin: 23px 0 0 17px;
+  color: #000000;
+  font-family: Finger Paint, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 35.376px;
+  text-align: left;
+  z-index: 40;
+}
+.aires-pique-nique {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: nowrap;
+  gap: 10px;
+  position: relative;
+  width: 502px;
+  margin: 1254px 0 0 407.5px;
+  padding: 0 34px 0 34px;
+  cursor: pointer;
+  background: #000000;
+  border: none;
+  z-index: 32;
+  border-radius: 75px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+.aires-pique-nique-e {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  width: 434px;
+  height: 59px;
+  color: #ffffff;
+  font-family: Finger Paint, var(--default-font-family);
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 58.96px;
+  text-align: center;
+  text-decoration: underline;
+  white-space: nowrap;
+  z-index: 33;
+}
+.aires-pique-nique-f {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  width: 1239px;
+  height: 70px;
+  margin: 23px 0 0 39px;
+  color: #000000;
+  font-family: Finger Paint, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 35.376px;
+  text-align: left;
+  z-index: 31;
+}
+.jardin-familles {
+  position: relative;
+  width: 772px;
+  height: 136px;
+  margin: 71.5px 0 0 501px;
+  font-family: Fira Mono, var(--default-font-family);
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 38.4px;
+  text-align: left;
+  z-index: 28;
+}
+.jardin-familles-10 {
+  position: relative;
+  color: #c26510;
+  font-family: Figma Hand, var(--default-font-family);
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 38.4px;
+  text-align: left;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+.jardin-familles-11 {
+  position: relative;
+  color: #000000;
+  font-family: Figma Hand, var(--default-font-family);
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 38.4px;
+  text-align: left;
+}
+.jardin-familles-12 {
+  position: relative;
+  color: #000000;
+  font-family: Figma Hand, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 38.4px;
+  text-align: left;
+}
+.terrasse-jungle {
+  position: relative;
+  width: 772px;
+  height: 177px;
+  margin: 99.5px 0 0 501px;
+  font-family: Fira Mono, var(--default-font-family);
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 38.4px;
+  text-align: left;
+  z-index: 25;
+}
+.terrasse-jungle-13 {
+  position: relative;
+  color: #c26510;
+  font-family: Figma Hand, var(--default-font-family);
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 38.4px;
+  text-align: left;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+.terrasse-jungle-14 {
+  position: relative;
+  color: #000000;
+  font-family: Figma Hand, var(--default-font-family);
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 38.4px;
+  text-align: left;
+}
+.terrasse-jungle-15 {
+  position: relative;
+  color: #000000;
+  font-family: Figma Hand, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 38.4px;
+  text-align: left;
+}
+.voir-aussi {
+  position: relative;
+  width: 370px;
+  height: 49px;
+  margin: 4px 0 0 989.5px;
+  cursor: pointer;
+  font-size: 0px;
+  background: #c26510;
+  border: none;
+  z-index: 44;
+  overflow: hidden;
+}
+.voir-aussi-16 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 84px;
+  height: 23px;
+  margin: -1px 0 0 143px;
+  color: #ffffff;
+  font-family: Imprima, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 45;
+}
+.flex-row-cdc {
+  position: relative;
+  width: 390px;
+  height: 18px;
+  margin: -3px 0 0 -12px;
+  z-index: 49;
+}
+.visite-habitats {
+  position: absolute;
+  width: 202px;
+  height: 18px;
+  top: 0;
+  left: 0;
+  z-index: 47;
+}
+.visite-habitats-17 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  color: #000000;
+  font-family: Indie Flower, var(--default-font-family);
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: center;
+  text-decoration: underline;
+  white-space: nowrap;
+  z-index: 48;
+}
+.visite-petit-train {
+  position: absolute;
+  width: 202px;
+  height: 18px;
+  top: 0;
+  left: 188px;
+  z-index: 49;
+}
+.visite-habitats-18 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  color: #000000;
+  font-family: Indie Flower, var(--default-font-family);
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: center;
+  text-decoration: underline;
+  white-space: nowrap;
+  z-index: 50;
+}
+.img-2 {
+  position: relative;
+  width: 1px;
+  height: 18px;
+  margin: -10px 0 0 182px;
+  background: url(./assets/images/14cfe34e-a80a-488b-9ad8-2eb5f26d6797.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 46;
+}
+.cafe-savane {
+  position: absolute;
+  width: 410px;
+  height: 233px;
+  top: 288px;
+  left: 44px;
+  border: 1px solid #000000;
+  z-index: 38;
+  overflow: hidden;
+  border-radius: 50px;
+}
+.cafe-savane-19 {
+  position: absolute;
+  width: 410px;
+  height: 233px;
+  top: -1px;
+  left: -1px;
+  background: url(./assets/images/8c30a2383696a645247ef4f5f0e406487860c3f4.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 39;
+}
+.cafe-de-la-savane {
+  position: absolute;
+  width: 772px;
+  height: 177px;
+  top: 316px;
+  left: 501px;
+  font-family: Fira Mono, var(--default-font-family);
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 38.4px;
+  text-align: left;
+  z-index: 37;
+}
+.cafe-de-la-savane-1a {
+  position: relative;
+  color: #c26510;
+  font-family: Figma Hand, var(--default-font-family);
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 38.4px;
+  text-align: left;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+.br {
+  position: relative;
+  color: #000000;
+  font-family: Figma Hand, var(--default-font-family);
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 38.4px;
+  text-align: left;
+}
+.proposant-des-plats {
+  position: relative;
+  color: #000000;
+  font-family: Figma Hand, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 38.4px;
+  text-align: left;
+}
+.bistro-de-la-foret {
+  position: absolute;
+  width: 410px;
+  height: 233px;
+  top: 544px;
+  left: 44px;
+  border: 1px solid #000000;
+  z-index: 35;
+  overflow: hidden;
+  border-radius: 50px;
+}
+.bistro-de-la-foret-1b {
+  position: absolute;
+  width: 410px;
+  height: 246px;
+  top: -1px;
+  left: -1px;
+  background: url(./assets/images/dd91da3b25791b3e018c523a63aee2f1d80a6c41.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 36;
+  backdrop-filter: blur(2px);
+}
+.bistro-de-la-foret-1c {
+  position: absolute;
+  width: 772px;
+  height: 136px;
+  top: 592.5px;
+  left: 501px;
+  font-family: Fira Mono, var(--default-font-family);
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 38.4px;
+  text-align: left;
+  z-index: 34;
+}
+.bistro-de-la-foret-1d {
+  position: relative;
+  color: #c26510;
+  font-family: Figma Hand, var(--default-font-family);
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 38.4px;
+  text-align: left;
+  text-transform: uppercase;
+}
+.colon {
+  position: relative;
+  color: #c26510;
+  font-family: Figma Hand, var(--default-font-family);
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 38.4px;
+  text-align: left;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+.br-1e {
+  position: relative;
+  color: #c26510;
+  font-family: Figma Hand, var(--default-font-family);
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 38.4px;
+  text-align: left;
+  text-transform: uppercase;
+}
+.offrant-des-plats {
+  position: relative;
+  color: #000000;
+  font-family: Figma Hand, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 38.4px;
+  text-align: left;
+}
+.flex-column-a {
+  position: absolute;
+  width: 410px;
+  height: 489px;
+  top: 1692px;
+  left: 86.5px;
+  z-index: 29;
+}
+.jardin-des-familles {
+  position: relative;
+  width: 410px;
+  height: 233px;
+  margin: 0 0 0 0;
+  border: 1px solid #000000;
+  z-index: 29;
+  overflow: hidden;
+  border-radius: 50px;
+}
+.jardin-des-familles-1f {
+  position: absolute;
+  width: 410px;
+  height: 233px;
+  top: -1px;
+  left: -1px;
+  background: url(./assets/images/bf2e1400678a67d4c49cabc12c9e1baf038e796e.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 30;
+  backdrop-filter: blur(2px);
+}
+.terrasse-de-la-jungle {
+  position: relative;
+  width: 410px;
+  height: 233px;
+  margin: 23px 0 0 0;
+  border: 1px solid #000000;
+  z-index: 26;
+  overflow: hidden;
+  border-radius: 50px;
+  backdrop-filter: blur(2px);
+}
+.terrasse-de-la-jungle-20 {
+  position: absolute;
+  width: 410px;
+  height: 233px;
+  top: -1px;
+  left: -1px;
+  background: url(./assets/images/d62f6985dd74a3187a11a1ede70eeebd80919dc9.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 27;
+}
+.restauration-21 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-shrink: 0;
+  gap: 42px;
+  position: absolute;
+  width: 1402px;
+  height: 696px;
+  top: 50%;
+  left: 50%;
+  padding: 13px 89px 13px 89px;
+  background: #ffffff;
+  transform: translate(-50%, -43.46%);
+  z-index: 51;
+  overflow: hidden;
+}
+.kiosque-des-aventuriers {
+  position: relative;
+  width: 772px;
+  font-family: Fira Mono, var(--default-font-family);
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 38.4px;
+  text-align: left;
+  z-index: 55;
+}
+.kiosque-des-aventuriers-22 {
+  position: relative;
+  color: #c26510;
+  font-family: Figma Hand, var(--default-font-family);
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 38.4px;
+  text-align: left;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+.situe-pres-des-aires {
+  position: relative;
+  color: #000000;
+  font-family: Figma Hand, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 38.4px;
+  text-align: left;
+}
+.glacier-de-la-savane {
+  position: relative;
+  width: 772px;
+  font-family: Fira Mono, var(--default-font-family);
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 38.4px;
+  text-align: left;
+  z-index: 58;
+}
+.glacier-de-la-savane-23 {
+  position: relative;
+  color: #c26510;
+  font-family: Figma Hand, var(--default-font-family);
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 38.4px;
+  text-align: left;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+.br-24 {
+  position: relative;
+  color: #000000;
+  font-family: Figma Hand, var(--default-font-family);
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 38.4px;
+  text-align: left;
+}
+.pingouins-cremes-glacees {
+  position: relative;
+  color: #000000;
+  font-family: Figma Hand, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 38.4px;
+  text-align: left;
+}
+.stands-nourriture-rapide {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  width: 1220px;
+  height: 70px;
+  color: #000000;
+  font-family: Finger Paint, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 35.376px;
+  text-align: left;
+  z-index: 54;
+}
+.snack-bars-kiosques {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: nowrap;
+  gap: 10px;
+  position: relative;
+  width: 569px;
+  padding: 0 34px 0 34px;
+  cursor: pointer;
+  background: #000000;
+  border: none;
+  z-index: 52;
+  border-radius: 75px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+.snack-bars-kiosques-25 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  width: 501px;
+  height: 59px;
+  color: #ffffff;
+  font-family: Finger Paint, var(--default-font-family);
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 58.96px;
+  text-align: center;
+  text-decoration: underline;
+  white-space: nowrap;
+  z-index: 53;
+}
+.kiosque-aventuriers {
+  position: relative;
+  width: 410px;
+  height: 233px;
+  border: 1px solid #000000;
+  z-index: 56;
+  overflow: hidden;
+  border-radius: 50px;
+}
+.kiosque-aventuriers-26 {
+  position: absolute;
+  width: 410px;
+  height: 233px;
+  top: -1px;
+  left: -1px;
+  background: url(./assets/images/c10f0b8a67b62a335eee6935cb0bc92e7df93078.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 57;
+  backdrop-filter: blur(2px);
+}
+.glacier-savane {
+  position: relative;
+  width: 410px;
+  height: 233px;
+  border: 1px solid #000000;
+  z-index: 59;
+  overflow: hidden;
+  border-radius: 50px;
+  backdrop-filter: blur(2px);
+}
+.glacier-savane-27 {
+  position: absolute;
+  width: 410px;
+  height: 233px;
+  top: -1px;
+  left: -1px;
+  background: url(./assets/images/b8c253942d8f5902e9a1f2e8f1f9e921c5105a21.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 60;
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 10px;
+  position: relative;
+  width: 1402px;
+  height: 125px;
+  z-index: 61;
+}
+.pied-page {
+  flex-shrink: 0;
+  position: relative;
+  width: 1402px;
+  height: 125px;
+  background: #32ade6;
+  border: 1px solid #ffffff;
+  z-index: 62;
+  overflow: hidden;
+}
+.flex-row-d {
+  position: relative;
+  width: 1247px;
+  height: 109px;
+  margin: 0 0 0 55px;
+  z-index: 92;
+}
+.logo-arcadia-zoo-blanc {
+  position: absolute;
+  width: 190px;
+  height: 105px;
+  top: 0;
+  left: 50%;
+  transform: translate(-328.16%, 0);
+  z-index: 92;
+  overflow: hidden;
+}
+.logo-arcadia-zoo-blanc-28 {
+  position: relative;
+  width: 190px;
+  height: 93px;
+  margin: -7px 0 0 0;
+  background: url(./assets/images/7dc808d393812dfc6b887b5ca06bd95938b827be.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 93;
+}
+.adresse {
+  position: absolute;
+  width: 268px;
+  height: 91px;
+  top: 6px;
+  left: 50%;
+  transform: translate(132.65%, 0);
+  z-index: 79;
+  overflow: hidden;
+}
+.adresse-29 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 18px;
+  top: 8px;
+  left: 15px;
+  color: #ffffff;
+  font-family: Itim, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+  text-transform: capitalize;
+  white-space: nowrap;
+  z-index: 80;
+}
+.nous-suivre {
+  position: absolute;
+  width: 199px;
+  height: 96px;
+  top: 13px;
+  left: 736px;
+  font-size: 0px;
+  z-index: 68;
+}
+.nous-suivre-2a {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 179px;
+  height: 22px;
+  margin: 0 0 0 9px;
+  color: #ffffff;
+  font-family: Itim, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: center;
+  text-decoration: underline;
+  text-transform: uppercase;
+  white-space: nowrap;
+  z-index: 78;
+}
+.flex-row-be {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  width: 199px;
+  height: 76px;
+  margin: -2px 0 0 0;
+  z-index: 75;
+}
+.facebook {
+  flex-shrink: 0;
+  position: relative;
+  width: 59px;
+  height: 58px;
+  z-index: 69;
+}
+.facebook-2b {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 70;
+  overflow: hidden;
+}
+.icon {
+  position: relative;
+  width: 31.041px;
+  height: 52.334px;
+  margin: 2.834px 0 0 15.209px;
+  background: url(./assets/images/12e234df-e5d8-469c-9434-442c3e0ae50f.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 71;
+}
+.twitter {
+  flex-shrink: 0;
+  position: relative;
+  width: 46px;
+  height: 58px;
+  z-index: 72;
+}
+.twitter-2c {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 73;
+  overflow: hidden;
+}
+.icon-2d {
+  position: relative;
+  width: 46px;
+  height: 47.363px;
+  margin: 5.227px 0 0 0;
+  background: url(./assets/images/1712b0a2-6ee9-461e-b181-50b467166280.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 74;
+}
+.youtube {
+  flex-shrink: 0;
+  position: relative;
+  width: 56px;
+  height: 76px;
+  z-index: 75;
+}
+.youtube-2e {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 76;
+  overflow: hidden;
+}
+.icon-2f {
+  position: relative;
+  width: 55.336px;
+  height: 52.957px;
+  margin: 10.666px 0 0 0.33px;
+  background: url(./assets/images/d32af4c6-32b3-4d6a-9d98-4ed090d83505.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 77;
+}
+.menu-bas {
+  position: absolute;
+  width: 538px;
+  height: 52px;
+  top: 18.5px;
+  left: 50%;
+  transform: translate(-77.04%, 0);
+  z-index: 81;
+  overflow: hidden;
+}
+.connexion-bas {
+  position: absolute;
+  width: 145.585px;
+  height: 23px;
+  top: 9.5px;
+  left: 398.152px;
+  z-index: 82;
+}
+.connexion-bas-30 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  color: #000000;
+  font-family: Indie Flower, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 23px;
+  text-align: center;
+  text-decoration: underline;
+  white-space: nowrap;
+  z-index: 83;
+}
+.contacts-bas {
+  position: absolute;
+  width: 82.152px;
+  height: 18px;
+  top: 9.5px;
+  left: 317px;
+  z-index: 84;
+}
+.contacts-bas-31 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  color: #000000;
+  font-family: Indie Flower, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: center;
+  text-decoration: underline;
+  white-space: nowrap;
+  z-index: 85;
+}
+.habitats-bas {
+  position: absolute;
+  width: 102.949px;
+  height: 15px;
+  top: 9.5px;
+  left: 199px;
+  z-index: 86;
+}
+.habitats-bas-32 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  color: #000000;
+  font-family: Indie Flower, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 15px;
+  text-align: center;
+  text-decoration: underline;
+  white-space: nowrap;
+  z-index: 87;
+}
+.services-bas {
+  position: absolute;
+  width: 105.029px;
+  height: 18px;
+  top: 9.5px;
+  left: 87px;
+  z-index: 88;
+}
+.services-bas-33 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  color: #000000;
+  font-family: Indie Flower, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: center;
+  text-decoration: underline;
+  white-space: nowrap;
+  z-index: 89;
+}
+.accueil-bas {
+  position: absolute;
+  width: 82.152px;
+  height: 18px;
+  top: 9.5px;
+  left: -2px;
+  z-index: 90;
+}
+.accueil-bas-34 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  color: #000000;
+  font-family: Indie Flower, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: center;
+  text-decoration: underline;
+  white-space: nowrap;
+  z-index: 91;
+}
+.copyright {
+  position: relative;
+  width: 1440px;
+  height: 20px;
+  margin: -3px 0 0 0;
+  z-index: 63;
+}
+.copyrignt {
+  position: absolute;
+  width: 1440px;
+  height: 20px;
+  top: 0;
+  left: 0;
+  background: #c26510;
+  z-index: 64;
+  overflow: hidden;
+}
+.devsoft {
+  position: absolute;
+  width: 81px;
+  height: 20px;
+  top: 0;
+  left: 868px;
+  z-index: 66;
+}
+.devsoft-35 {
+  position: absolute;
+  width: 81px;
+  height: 100%;
+  top: 0;
+  left: 0;
+  font-family: JejuMyeongjo, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  text-overflow: initial;
+  white-space: nowrap;
+  z-index: 67;
+}
+.nbsp {
+  position: relative;
+  color: #1e1e1e;
+  font-family: JejuMyeongjo, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  text-transform: capitalize;
+}
+.devsoft-36 {
+  position: relative;
+  color: #ffffff;
+  font-family: JejuMyeongjo, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  text-transform: capitalize;
+}
+.arcadia-zoo-tous-droits-reserves {
+  position: absolute;
+  width: 524px;
+  height: 20px;
+  top: 1px;
+  left: 354px;
+  font-family: JejuMyeongjo, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  text-overflow: initial;
+  white-space: nowrap;
+  z-index: 65;
+}
+.copy {
+  position: relative;
+  color: #ffffff;
+  font-family: JejuMyeongjo, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  text-transform: capitalize;
+}
+.arcadia-zoo-tous-droits-reserves-37 {
+  position: relative;
+  color: #1e1e1e;
+  font-family: JejuMyeongjo, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  text-transform: capitalize;
+}
+.copy-38 {
+  position: relative;
+  color: #ffffff;
+  font-family: JejuMyeongjo, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  text-transform: capitalize;
+}
+.developpe-par {
+  position: relative;
+  color: #1e1e1e;
+  font-family: JejuMyeongjo, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  text-transform: capitalize;
+}
