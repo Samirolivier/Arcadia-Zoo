@@ -98,7 +98,7 @@
                 <div class="div-wrapper"><div class="div"><a href="services.php">SERVICES</a></div></div>
                 <div class="div-wrapper"><div class="div"><a href="habitats.php">HABITAS</a></div></div>
                 <div class="div-wrapper"><div class="div"><a href="contact.php">CONTACT</a></div></div>
-                <div class="div-wrapper"><div class="div"><a href="Connexion.php">CONNEXION</a></div></div>
+                <div class="div-wrapper"><div class="div"><a href="connexion.php">CONNEXION</a></div></div>
             </header>
             <div class="slide">
                 <div class="photo-slide">
