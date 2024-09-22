@@ -166,7 +166,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
           class="facebook-icon"
           loading="lazy"
           alt="Facebook"
-          src="Connexion/public/facebook.svg"
+          src="connexion/public/facebook.svg"
         />
         </a>
         <a href="https://www.twitter.com" target="_blank">
@@ -174,7 +174,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
           class="twitter-icon"
           loading="lazy"
           alt="Twitter"
-          src="Connexion/public/twitter.svg"
+          src="connexion/public/twitter.svg"
         />
         </a>
         <a href="https://www.youtube.com" target="_blank">
@@ -182,7 +182,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
           class="youtube-icon"
           loading="lazy"
           alt="Youtube"
-          src="Connexion/public/youtube.svg"
+          src="connexion/public/youtube.svg"
         />
         </a>
 
@@ -220,7 +220,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             class="logo-arcadia-zoo-blanc-1"
             loading="lazy"
             alt=""
-            src="Connexion/public/logo-arcadia-zoo-blanc-1@2x.png"
+            src="connexion/public/logo-arcadia-zoo-blanc-1@2x.png"
           />
           </a>
         </div>
